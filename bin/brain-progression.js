@@ -36,4 +36,3 @@ while (flag === 'win') {
     break;
   }
 }
-
