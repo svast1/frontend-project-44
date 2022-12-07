@@ -21,7 +21,7 @@ while (flag === 'win') {
     win += 1;
   }
   if (answer !== String(Question)) {
-    console.log(`${answer}` + ' ' + 'is wrong answer ;(. Correct answer was' + ' ' + `${Question}`, '\n', 'Lets try again,' + ' ' + `${name}` + '!');
+    console.log(`${answer}` + ' ' + 'is wrong answer ;(. Correct answer was' + ' ' + `${Question}`, '\n', "Let's try again," + ' ' + `${name}` + '!');
     flag = 'lose';
   }
   if (win === 3) {
